@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "name": "university-app",
+  "scripts": {
+    "dev": "concurrently \"npm start -w client\" \"npm start -w server\""
+  },
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "process": "^0.11.10"
+  }
+}
